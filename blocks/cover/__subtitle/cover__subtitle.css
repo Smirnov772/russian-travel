@@ -1,7 +1,6 @@
 .cover__subtitle {
-    width      : 360px;
-    font-family: Inter;
-    font-style : normal;
+    max-width  : 360px;
+        font-style : normal;
     font-weight: normal;
     font-size  : 18px;
     line-height: 22px;

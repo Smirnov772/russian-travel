@@ -15,31 +15,22 @@
         "image description";
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
     .place {
         margin-bottom: 84px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .place {
         margin-bottom  : 72px;
         grid-column-gap: 28px;
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     .place {
-        grid-template-areas: "title""website"
-            "image""description";
-            grid-row-gap: 32px;
-            justify-items: center;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place {
-        grid-template-areas: "title""website"
+        grid-template-areas: "title"
             "image""description";
             grid-row-gap: 32px;
             justify-items: center;
