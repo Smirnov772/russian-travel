@@ -2,11 +2,10 @@
     max-width    : 484px;
     margin       : 0;
     margin-bottom: 24px;
-     font-style   : normal;
-    font-weight  : normal;
-    font-size    : 18px;
+    font-size: 18px;
+    line-height: 30px;
     align-self   : start;
-    line-height  : 30px;
+
 }
 
 @media screen and (max-width:768px) {
