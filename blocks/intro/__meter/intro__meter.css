@@ -1,9 +1,9 @@
 .intro__meter {
-    max-width: 690px;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 18px;
-list-style-type: none;
-padding: 0;
+    max-width      : 690px;
+    font-style     : normal;
+    font-weight    : normal;
+    font-size      : 12px;
+    line-height    : 18px;
+    list-style-type: none;
+    padding        : 0;
 }

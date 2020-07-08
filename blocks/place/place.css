@@ -1,4 +1,5 @@
 @import url(./__image/place__image.css);
+@import url(./__description/place__description.css);
 @import url(./__paragraph/place-paragraph.css);
 @import url(./__title/place__title.css);
 @import url(./__website/place__website.css);
@@ -6,33 +7,45 @@
 @import url(./__link/place__link.css);
 
 .place {
-    max-width: 984px;
-    display  : grid;
-    margin   : 0 auto 80px;
-    grid-gap : 48px 40px;
+    display : grid;
+    margin  : 80px auto;
+    grid-gap: 48px 40px;
     grid-template-areas:
         "title website"
         "image description";
+    grid-template-columns: 460px 1fr;
+
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1184) {
     .place {
-        margin-bottom  : 84px;
+        margin-bottom        : 84px;
+        grid-column-gap      : 32px;
+        grid-template-columns: 440px 1fr;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 984px) {
     .place {
-        margin-bottom  : 72px;
-        grid-column-gap: 32px;
+        margin-bottom        : 72px;
+        grid-column-gap      : 28px;
+        grid-template-columns: 340px 1fr;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 734px) {
+    .place {
+        grid-template-areas: "title title"
+            "image description";
+        grid-template-columns: minmax(200px, 1fr) 1fr;
+    }
+}
+
+@media screen and (max-width: 560px) {
     .place {
         grid-template-areas: "title"
-            "image""description";
-        grid-row-gap : 28px;
-        justify-items: center;
+            "image" "description";
+        grid-row-gap         : 28px;
+        grid-template-columns: minmax(200px, 1fr);
     }
 }
