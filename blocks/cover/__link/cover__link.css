@@ -1,14 +1,15 @@
 .cover__link {
-    min-height: 740px;
-    background-image: url(../../../images/cover-trains.jpg);
-    background-size: cover;
+    display            : flex;
+    flex-direction     : column;
+    justify-content    : center;
+    align-items        : center;
+    position           : relative;
+    min-height         : 740px;
+    background-image   : url(../../../images/cover-trains.jpg);
+    background-size    : cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    z-index: 1;
+    text-decoration    : none;
+    z-index            : 1;
 }
 
 .cover__link:before {
@@ -18,7 +19,7 @@
     right     : 0;
     bottom    : 0;
     left      : 0;
-    background: black;
+    background: #2A2C2F;
     opacity   : 0.3;
     z-index   : -1;
 }

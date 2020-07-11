@@ -3,29 +3,25 @@
 @import url(./__link/cover__link.css);
 
 .cover {
-    position      : relative;
-    display       : flex;
-    width         : 100%;
-    flex-direction: column;
-    margin        : 92px auto;
+    max-width: 1184px;
+    width    : 100%;
+    margin   : 92px auto;
 }
 
 @media screen and (max-width: 1184px) {
-    .cover {
-     
-    }
+    .cover {}
 }
 
 @media screen and (max-width: 984px) {
     .cover {
-        margin    : 88px auto;
-        
+        margin: 88px auto;
+
     }
 }
 
 @media screen and (max-width: 734px) {
     .cover {
-        margin    : 64px auto;
-    
+        margin: 64px auto;
+
     }
 }

@@ -1,7 +1,7 @@
 .plaсes {
   max-width: 984px;
-  margin : 92px auto;
-  padding: 0 48px;
+  margin   : 92px auto;
+  padding  : 0 48px;
 }
 
 @media screen and (max-width: 984px) {
